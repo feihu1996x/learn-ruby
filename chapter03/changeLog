@@ -1,0 +1,8 @@
+Wed Mar 28 23:08:46 2018  NAKAMURA Usaku  <usa@ruby-lang.org>
+
+	get rid of test error/failure on Windows introduced at r62955
+
+	* lib/webrick/httpresponse.rb (send_body_io): use seek if
+	  NotImplementedError is raised in IO.copy_stream with offset.
+
+	* lib/webrick/httpservlet/filehandler.rb (multipart_body): ditto.
