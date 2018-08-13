@@ -2,7 +2,7 @@
 
 =begin
  @file: methods.rb
- @brief:  方法的定义
+ @brief:  Ruby中方法的定义
  @author: feihu1996.cn
  @date:  18-08-13
  @version: 1.0
