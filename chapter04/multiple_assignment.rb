@@ -25,11 +25,11 @@ a, b = b, a
 p([a, b]) #=>[1, 0]
 
 # 用数组进行多重赋值
-ary = [1, 2]
-a, b = ary
+array = [1, 2]
+a, b = array
 puts(a, b)
 
 # 只是获取数组开头的元素
-ary = [1, 2]
-a, = ary
+array = [1, 2]
+a, = array
 puts(a)
